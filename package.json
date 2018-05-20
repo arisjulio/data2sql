@@ -1,0 +1,29 @@
+{
+  "name": "data2sql",
+  "version": "0.1.0",
+  "description": "CLI tool to generate SQL from dataset.",
+  "main": "bin/data2sql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arisjulio/data2sql.git"
+  },
+  "keywords": [
+    "sql"
+  ],
+  "author": "Aris Julio",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/arisjulio/data2sql/issues"
+  },
+  "homepage": "https://github.com/arisjulio/data2sql#readme",
+  "dependencies": {
+    "colors": "^1.2.5",
+    "commander": "^2.15.1",
+    "prompt-list": "^3.1.2",
+    "sqlstring": "^2.3.1",
+    "xlsx": "^0.12.12"
+  }
+}
