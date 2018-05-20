@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/arisjulio/data2sql#readme",
   "dependencies": {
+    "autodetect-decoder-stream": "^1.0.0",
     "colors": "^1.2.5",
     "commander": "^2.15.1",
+    "csv-reader": "^1.0.3",
+    "node-bash-title": "0.0.2",
     "prompt-list": "^3.1.2",
     "sqlstring": "^2.3.1",
     "xlsx": "^0.12.12"
