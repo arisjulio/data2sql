@@ -1,6 +1,6 @@
 # data2sql
 
-CLI tool to generate SQL from dataset.
+CLI tool to generate SQL from dataset in a CSV or Excel file.
 
 ## Installation
 
