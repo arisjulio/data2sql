@@ -2,18 +2,28 @@
   "name": "data2sql",
   "version": "0.1.0",
   "description": "CLI tool to generate SQL from dataset.",
-  "main": "bin/data2sql.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/app.js",
+  "bin": {
+    "data2sql": "./bin/data2sql.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arisjulio/data2sql.git"
   },
   "keywords": [
-    "sql"
+    "sql",
+    "excel to sql",
+    "csv to sql"
   ],
-  "author": "Aris Julio",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 4.0.0"
+  },
+  "author": {
+    "name": "Aris Julio",
+    "email": "aj.julio@hotmail.com",
+    "url": "https://arisjulio.github.io/"
+  },
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/arisjulio/data2sql/issues"
