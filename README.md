@@ -5,7 +5,7 @@ CLI tool to generate SQL from dataset in a CSV or Excel file.
 ## Installation
 
 ```bash
-npm i -g https://github.com/arisjulio/data2sql.git
+npm i -g arisjulio/data2sql
 ```
 
 ## Usage

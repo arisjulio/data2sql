@@ -40,7 +40,7 @@ module.exports = {
 
     let out = `CREATE TABLE ${tableName} (${endOfLine}\t`
     out += headers.join(` VARCHAR(500) DEFAULT NULL,${endOfLine}\t`)
-    out += ` VARCHAR(500) DEFAULT NULL,${endOfLine})`
+    out += ` VARCHAR(500) DEFAULT NULL${endOfLine})`
     out += ` ENGINE=InnoDB DEFAULT CHARSET=${collation};${endOfLine + endOfLine}`
 
     return out
